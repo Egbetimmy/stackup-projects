@@ -3,8 +3,11 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blog/blog-site" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/circle-quest-7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/circle-quest-8" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/counter/counter-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/food/food-community-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-first-dapp/frontend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/payments-sample-app" vcs="Git" />
   </component>
 </project>
