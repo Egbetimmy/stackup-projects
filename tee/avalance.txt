@@ -1,0 +1,21 @@
+Browser Extension connection details (any node URL from above works):
+RPC URL:          https://9650-stackupdev-advancingint-ynar4rljk0g.ws-eu94.gitpod.io/ext/bc/kjquZi6jFcEB1srYD8kZQMQ87vW4y5QyfDERjdCJ9w5DLscxT/rpc
+Funded address:   0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC with 1000000 (10^18) - private key: 56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027
+Network name:     firstsubnet
+Chain ID:         1234
+Currency Symbol:  Test
+
+curl -X POST --data '{
+  "jsonrpc":"2.0",
+  "id"   :1,
+  "method" :"eth_chainId",
+  "params" :[]
+}' -H 'content-type:application/json;' {https://9650-stackupdev-advancingint-ynar4rljk0g.ws-eu94.gitpod.io/ext/bc/kjquZi6jFcEB1srYD8kZQMQ87vW4y5QyfDERjdCJ9w5DLscxT/rpc}
+
+
+curl -X POST --data '{
+  "jsonrpc":"2.0",
+  "id"   :1,
+  "method" :"eth_getBalance",
+  "params" :["0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC","latest"]
+}' -H 'content-type:application/json;' {https://9650-stackupdev-advancingint-ynar4rljk0g.ws-eu94.gitpod.io/ext/bc/kjquZi6jFcEB1srYD8kZQMQ87vW4y5QyfDERjdCJ9w5DLscxT/rpc}

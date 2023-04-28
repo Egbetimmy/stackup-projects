@@ -1,0 +1,42 @@
+======== Generating Sender keys ========
+{
+  address: 'X-fuji1ya4une43jxtfjvldvl3jwapuzfp67aea3mxtwu',
+  publicKey: '7TCQtSrCrE9haMTDLUKtndKvongLce7PqjEyZEANqhYLGD6pQx',
+  privateKey: 'PrivateKey-21d9RSQNBB9oFV3cjioACMxhtgsFCN727vSueFiZLdz8wJpKNy'
+}
+==========================================
+======== Generating Receiver keys ========
+{
+  address: 'X-fuji1kq5h0f3jh0k0fakuv7uwze7t7vtxytdmf2n7n7',
+  publicKey: '7q6ndBwkobQEp2PY9KL142tDriSMswJZ4j52ZWUfXPdjtHmUAy',
+  privateKey: 'PrivateKey-rotaMWARB2hGHeSPyMVmHpwVyEXwxJgKweWHPhwUCuAfoRE2Q'
+}
+
+fan ranch midnight mirror grass exotic velvet series puppy unknown idle dawn horse spray citizen govern two never mention grit shuffle become sight paddlev
+
+http://127.0.0.1:9650/ext/bc/T3G3MUsFw9KMUbqunr4A3m2KkgrukNXYKQUJd3hLUjijA6Wft/rpc
+
+https://9650-stackupdev-advancingint-rip776jzq2c.ws-eu95.gitpod.io
+
+
+
+https://9650-stackupdev-advancingint-ex6ujw3brh6.ws-eu95.gitpod.io/ext/bc/LuGuwbncPjhWskwLveuq5B7smZSJoSxeyuGaNWVgynw7ihvb7/rpc
+
+
+RPC URL:          http://127.0.0.1:9650/ext/bc/LuGuwbncPjhWskwLveuq5B7smZSJoSxeyuGaNWVgynw7ihvb7/rpc
+Funded address:   0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC with 1000000 (10^18) - private key: 56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027
+Network name:     quest7
+Chain ID:         777
+Currency Symbol:  SUP
+
+
+0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC
+
+const Coin = await ethers.getContractFactory('NewTestToken');
+const coin = await Coin.attach('0x52C84043CD9c865236f11d9Fc9F56aa003c1f922');
+let accounts = await ethers.provider.listAccounts();
+
+
+gp ports visibility 9650:public
+
+0x52C84043CD9c865236f11d9Fc9F56aa003c1f922
